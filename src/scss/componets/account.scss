@@ -1,0 +1,24 @@
+.account{
+  text-align: center;
+  margin-bottom: 60px;
+  &__figure{
+    margin: 0 auto;
+    padding: 0;
+  }
+  &__img{
+    width: 80px;
+    height: 80px;
+    padding: 0;
+    margin: auto;
+    border-radius: 50%;
+    overflow: hidden;
+    img{
+      border-radius: 50%;
+    }
+  }
+  &__name{
+    margin-top: 15px;
+    font-size: 16px;
+    color: #ffffff;
+  }
+}
